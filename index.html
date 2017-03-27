@@ -7,11 +7,11 @@
                 background-color:black;
                 margin:0;
                 padding:0;
-                background: linear-gradient(270deg, #583e47, #583e54, #543e58, #4d3e58);
+                <!-- not used background: linear-gradient(270deg, #583e47, #583e54, #543e58, #4d3e58);
                 background-size: 800% 800%;
                 -webkit-animation: bg 14s ease infinite;
                 -moz-animation: bg 14s ease infinite;
-                animation: bg 14s ease infinite;
+                animation: bg 14s ease infinite; -->
             }
             .logo {
                 font-family: 'Julius Sans One', sans-serif;
@@ -132,11 +132,43 @@
                 text-decoration:none;
                 z-index:90000;
             }
+            .link {
+                font-family:Alegreya Sans SC;
+                font-size:13;
+                color:white;
+                position:absolute;
+                z-index:99;
+                display:block;
+                width:100%;
+                text-align:center;
+                top:50%;
+                opacity:0;
+                -webkit-animation: linkAni 1s ease;
+                -moz-animation: linkAni 1s ease;
+                animation: linkAni 1s ease;
+                -webkit-animation-delay: 5s;
+                animation-delay: 5s;
+                animation-fill-mode:forwards;
+            }
+            @-webkit-keyframes linkAni {
+                0%{opacity:0.0;}
+                100%{opacity:1.0;}
+            }
+            @-moz-keyframes linkAni {
+                0%{opacity:0.0;}
+                100%{opacity:1.0;}
+            }
+            @keyframes linkAni { 
+                0%{opacity:0.0;}
+                100%{opacity:1.0;}
+            }
 		</style>
 	</head>
 	<body>
         <div id="cover"></div>
-        <div class="logo"><u>E</u>PICKYY</div><div id="vf"></div><small><a href="http://s4mi.xyz">Sami design</a></small>
+        <div class="logo"><u>E</u>PICKYY</div><div id="vf"></div>
+        <p class="link"><a class="rota" href="LINK HERE">ONE&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" href="LINK HERE">&nbsp;&nbsp;&nbsp;TWO&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" href="LINK HERE">&nbsp;&nbsp;&nbsp;THREE&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" href="LINK HERE">&nbsp;&nbsp;&nbsp;FOUR</a></p>
+        <small><a href="http://s4mi.xyz">Sami design</a></small>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/KOFw2UPLdPk?start=30&autoplay=1&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</body>
 </html>
