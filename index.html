@@ -1,174 +1,118 @@
+
+<!--
+A Finnish-Polish collaboration :^)
+
+Scripts and design by http://jakonen.org/
+
+If you find code syntax and formatting awful,
+bear in mind I am aware of this. :)
+-->
+
 <html>
-	<head>
-		<title>E P I C K Y Y</title>
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Julius+Sans+One" rel="stylesheet">
-		<style>
-            body {
-                background-color:black;
-                margin:0;
-                padding:0;
-                <!-- not used background: linear-gradient(270deg, #583e47, #583e54, #543e58, #4d3e58);
-                background-size: 800% 800%;
-                -webkit-animation: bg 14s ease infinite;
-                -moz-animation: bg 14s ease infinite;
-                animation: bg 14s ease infinite; -->
-            }
-            .logo {
-                font-family: 'Julius Sans One', sans-serif;
-                font-size:53;
-                color:white;
-                display:block;
-                width:220;
-                margin:auto auto auto auto;
-                position:relative;
-                top:47%;
-                -webkit-transform: translateY(-50%);
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-                -webkit-filter: blur(0px);
-                filter: blur(0px);
-                -webkit-animation: blurry 2s ease;
-                -moz-animation: blurry 2s ease;
-                animation: blurry 2s ease;
-                z-index:9000;
-            }
-            @-webkit-keyframes blurry {
-                0%{filter: blur(10px); -webkit-filter: blur(10px);}
-                100%{filter: blur(0px); -webkit-filter: blur(0px);}
-            }
-            @-moz-keyframes blurry {
-                0%{filter: blur(10px); -webkit-filter: blur(10px);}
-                100%{filter: blur(0px); -webkit-filter: blur(0px);}
-            }
-            @keyframes blurry { 
-                0%{filter: blur(10px); -webkit-filter: blur(10px);}
-                100%{filter: blur(0px); -webkit-filter: blur(0px);}
-            }
-            @-webkit-keyframes bg {
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
-            @-moz-keyframes bg {
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
-            @keyframes bg { 
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
-            @-webkit-keyframes hidee {
-                0%{height:100%;}
-                100%{height:0%;}
-            }
-            @-moz-keyframes hidee {
-                0%{height:100%;}
-                100%{height:0%;}
-            }
-            @keyframes hidee { 
-                0%{height:100%;}
-                100%{height:0%;}
-            }
-            #cover {
-                width:100%;
-                height:100%;
-                background:black;
-                position:absolute;
-                z-index:2;
-                -webkit-animation: hidee 3s ease;
-                -moz-animation: hidee 3s ease;
-                animation: hidee 2s ease;
-                -webkit-animation-delay: 3s;
-                animation-delay: 3s;
-                animation-fill-mode:forwards;
-            }
-            .logo u {
-                text-decoration:none;
-                font-size:59;
-                display:inline-block;
-                transform:scale(-1,1);
-                -webkit-transform:scale(-1,1);
-                -moz-transform:scale(-1,1);
-                -o-transform:scale(-1,1)'
-            }
-            video {
-                position:absolute;
-                top:0;
-                height:600;
-                width:600;
-                z-index:899;
-            }
-            iframe {
-                width:100%;
-                height:100%;
-                position:absolute;
-                z-index:1;
-                top:0;
-                left:0;
-                opacity:0.3;
-            }
-            #vf {
-                width:100%;
-                height:100%;
-                top:0;
-                left:0;
-                background:none;
-                z-index:10;
-                position:absolute;
-                margin:0;
-            }
-            small {
-                position:absolute;
-                bottom:10;
-                left:10;
-                font-family:Alegreya Sans SC;
-                font-size:13;
-                z-index:9000;
-            }
-             a {
-                color:white;
-                text-decoration:none;
-                z-index:90000;
-            }
-            .link {
-                font-family:Alegreya Sans SC;
-                font-size:13;
-                color:white;
-                position:absolute;
-                z-index:99;
-                display:block;
-                width:100%;
-                text-align:center;
-                top:50%;
-                opacity:0;
-                -webkit-animation: linkAni 1s ease;
-                -moz-animation: linkAni 1s ease;
-                animation: linkAni 1s ease;
-                -webkit-animation-delay: 5s;
-                animation-delay: 5s;
-                animation-fill-mode:forwards;
-            }
-            @-webkit-keyframes linkAni {
-                0%{opacity:0.0;}
-                100%{opacity:1.0;}
-            }
-            @-moz-keyframes linkAni {
-                0%{opacity:0.0;}
-                100%{opacity:1.0;}
-            }
-            @keyframes linkAni { 
-                0%{opacity:0.0;}
-                100%{opacity:1.0;}
-            }
-		</style>
-	</head>
-	<body>
-        <div id="cover"></div>
-        <div class="logo"><u>E</u>PICKYY</div><div id="vf"></div>
-        <p class="link"><a class="rota" target="newTab" href="http://steamcommunity.com/id/httpgang">STEAM&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" target="newTab" href="http://www.youtube.com/channel/UCZWarUNSGorApO_nP0NM_lQ">&nbsp;&nbsp;&nbsp;YOUTUBE&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" target="newTab" href="https://discord.gg/rUWfJ">&nbsp;&nbsp;&nbsp;DISCORD&nbsp;&nbsp;&nbsp;</a>&#9840;<a class="rota" target="newTab" href="http://s4mi.xyz">&nbsp;&nbsp;&nbsp;SAMI</a></p>
-        <small><a href="http://s4mi.xyz">Sami design</a></small>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HWhswK7A4D8?start=19&autoplay=1&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-	</body>
+<head>
+  <title>Epickyy</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <meta charset="utf-8">
+  <style>
+    body, html {
+      background:url(https://s-media-cache-ak0.pinimg.com/originals/ae/66/a7/ae66a76fc2050ab30c4166909622c8d2.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    #heading {
+        font-family:'Press Start 2P', cursive;
+        font-size:42;
+        color:orangered;
+        padding:30;
+        text-align: center;
+        position:relative;
+        top:28%;
+        text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+      }
+      #menu {
+          font-family:'VT323', cursive;
+          font-size:30;
+          color:#eee;
+          padding:30;
+          text-align: center;
+          position:relative;
+          top:27%;
+          left:-50;
+          text-shadow:1px 1px 2px black;
+        }
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        #line {
+            font-family:'VT323', cursive;
+            font-size:30;
+            color:orangered;
+            text-align: center;
+            position:relative;
+            top:27%;
+            text-shadow:1px 1px 2px black;
+          }
+	  #cred {
+            position:absolute;
+            color:#fff;
+            opacity:0.6;
+            left:40;
+            bottom:40;
+            font-family:VT323;
+            font-size:23;
+          }
+  </style>
+  </style>
+</head>
+<body>
+  <div id="heading">
+    Epickyy
+  </div>
+  <div id="menu"></div>
+  <div id="line"></div>
+  <script>
+  typer('Epickyy','heading',50);
+  setTimeout(function() {
+    typer("..<a href='http://google.com/1/'>Link item</a> /\<br> ..<a href='http://google.com/2/'>Link item</a> /\<br> ..<a href='http://google.com/3/'>Link item</a> /\<br> ..<a href='http://google.com/4/'>Link item</a> /",'menu',20);
+  }, 300);
+  setTimeout(function() {
+    typer('=========================','line',20);
+  }, 5100);
+  function typer(str,ids,spd) {
+          var arr = str.split(''); //Puts all string characters into an array.
+          var trg = [];
+          var lgg = "";
+          console.log(arr); //Spits out the array of characters for debugging.
+          for (var i = 0; i < arr.length; i++) { //Basic for loop.
+            (function(i){
+                window.setTimeout(function(){ //Set timeout for typing effect.
+                  trg.push(arr[i]); //Add the element of number i to the last position in a new array.
+                  lgg = trg.join(""); //Make the array into a string without commas.
+                  console.log(lgg); //Log all the strings for debugging.
+                  document.getElementById(ids).innerHTML = lgg; //Print onto the page.
+                }, i * spd); //Increase the timeout value each time.
+              }(i));
+          }
+          /*setTimeout(function() { //Cursor at the end of the line.
+            trg.push("_");
+            lgg = trg.join("");
+            document.getElementById(ids).innerHTML = lgg;
+          }, arr.length * spd + 10);*/
+        }
+  </script>
+	  <div id="cred"><a href="http://jakonen.org">by Sami</a></div>
+</body>
 </html>
