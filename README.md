@@ -1,3 +1,5 @@
+Find new repo here https://github.com/Epickyy/Epickyy.github.io
+
 # by sami
 This website has been designed by sami. The web template can
 be used for any project given that the person using the source
